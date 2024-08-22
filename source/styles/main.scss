@@ -1,0 +1,13 @@
+@use 'variaveis';
+
+body{
+    background-color: brown;
+}
+
+img{
+    max-width: 100%;
+}
+
+h2{
+    color: $corPrimaria;
+}
