@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss","variaveis.scss"],"names":[],"mappings":"AAEA,KACI,iBCFW,KDKf,IACI,eAGJ,EACI,MCXO","file":"../main.css","sourcesContent":["@import 'variaveis';\r\n\r\nbody{\r\n    background-color: $corPrincipal;\r\n}\r\n\r\nimg{\r\n    max-width: 100%;\r\n}\r\n\r\np{\r\n    color: $corTexto;\r\n}","$corTexto: yellow;\r\n$corPrincipal: #84c;"]}
