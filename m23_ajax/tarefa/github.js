@@ -7,16 +7,11 @@ $(document).ready(function(){
     .then(function(json){
         console.log(json);
         const avatar = json.avatar_url;
-        const name = json.login;
-        const num_repo = json.public_repos;
-        const num_seguidores = json.followers;
-        const num_seguindo = json.following;
 
         document.getElementById('avatar').src = avatar;
-        document.getElementById('username') = name;
-        document.getElementById('repositorios') = num_repo;
-        document.getElementById('seguidores') = num_seguidores;
-        document.getElementById('seguindo') = num_seguindo;
+        document.getElementById('repositorios').innerText = json.public_repos;
+        document.getElementById('seguidores').innerText = json.followers;
+        document.getElementById('seguindo').innerText = json.following;        
     })
     .catch(function(erro){
         console.log("Ocorreu um erro, tente novamente.")
